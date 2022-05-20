@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+  background:black;
+  color:white;
+}
+
+form{
+  background:rgb(200,100,0);
+  width:300px;
+  border-radius:20px;
+  text-align:center;
+  margin:0 auto;
+  padding:7px;
+  margin-top:50px;
+}
+
+fieldset{ 
+ padding:10px 0 1d0px 0;
+ border:none;
+}
+
+legend{
+  text-align:center;
+  font-size:30px;
+  border-bottom:6px double blue;
+}
+
+input{
+  width:100%;
+  margin:0 auto;
+  padding:10px 0;
+  border-radius:5px;
+  border:none;
+  text-align:center;
+  margin-top:20px;
+}
+
+.enviar{
+  background:green;
+  border-radius:10px;
+  padding: 20px 0;
+  width:50%;
+  margin-top:20px;
+  border:none;
+}
+
+p{
+  padding:0;
+  margin-top:20px;
+  margin-bottom:0;
+}
+    </style>
+</head>
+<body>
+    
+    <div>
+        <form action="practica.php" method="POST">
+          <fieldset>
+            <legend>Elevar Numero</legend>
+            
+            <input type="text" placeholder="ingrese el numero aqui" name="numero">
+
+            <input type="text" placeholder="valor a elevar" name="elevar">
+           
+            
+              
+            <input type="submit" class="enviar" value="Resultado">
+          
+          </fieldset>
+        </form>
+      </div>
+</body>
+</html>
